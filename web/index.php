@@ -1,4 +1,5 @@
 <?php
+//Front Controller взаимодействует с классом Kernel
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpFoundation\Request;
