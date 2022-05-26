@@ -1,5 +1,7 @@
 <?php
 
+//Registry - класс Product хранит в себе переменные и операции над ними, относящиеся к общей группе каких-либо продуктов/товаров
+
 declare(strict_types = 1);
 
 namespace Model\Entity;

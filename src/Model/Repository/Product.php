@@ -14,6 +14,25 @@ class Product
      * @param int[] $ids
      * @return Entity\Product[]
      */
+
+
+    // public function search(array $ids = []): array
+    // {
+    //     if (!count($ids)) {
+    //         return [];
+    //     }
+
+    //     $productList = $this->getDataFromSource(['id' => $ids], $item);
+    //     $this->Entity\Product[$productList] = $item;
+
+    // }
+
+    // public function fetchAll(): array
+    // {
+    //     $productList = $this->getDataFromSource();
+    //     $this->Entity\Product[$productList];
+    // }
+
     public function search(array $ids = []): array
     {
         if (!count($ids)) {
